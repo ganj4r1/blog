@@ -17,6 +17,7 @@ function movie_direct()
    success : function(data)
    {
      // $('#gambar').append('http://image.tmdb.org/t/p/w185/'+data.poster_path);
+    alert(data.poster_path);
      $("meta[property='og\\:image']").attr("content", 'http://image.tmdb.org/t/p/w185/'+data.poster_path);
    }
 
