@@ -8,7 +8,8 @@ var id = "";
 function movie_direct()
 {
   $(document).ready(function(){
-    id = attrURL('id');
+   // id = attrURL('id');
+   id = '166428';
     $.ajax({
    url : "https://api.themoviedb.org/3/movie/"+id,
    type : "GET",
